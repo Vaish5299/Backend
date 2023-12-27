@@ -1,0 +1,90 @@
+#navbarNavDropdown{
+    background-color:antiquewhite;
+}
+
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+#food-quote{
+    font-family: cursive;
+    font-weight: bolder;
+    
+}
+
+.blogging { 
+    font-family: cursive;
+    text-align: center;
+    color: red;
+   
+}
+h2{
+    text-align: left;
+    color: brown;
+    font-family: cursive;
+}
+.float{
+   float: left;
+}
+
+.steps{
+  
+    font-family: cursive;
+ 
+    text-align: left;
+    
+}
+
+
+.Sandwiches, .pasta, .Pizza, .seafood,.salad{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh; 
+    font-family: cursive;
+    margin: 100px;
+    text-align: center;
+   
+}
+#sandwichesheading, #pastaheading, #Pizzaheading, #seafoodheading, #saladheading{
+    color:red;
+}
+
+h3{
+    color:green;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 30%;
+	}
+	50% {
+		background-position: 90% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.navbar-nav{
+    font-weight: bold;
+    font-family: cursive;
+    margin: 0%;
+    padding: 0%;
+    font-size: large;
+    color: palevioletred;
+   
+}
+
+.dropdown-item{
+    color: orange;
+}
+
+.btn-outline-light{
+
+    font-weight: bold;
+
+}

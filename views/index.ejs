@@ -1,0 +1,39 @@
+<%-include ("partials/header.ejs") %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=" stylesheet" href="/main/style.css"/>
+   
+</head>
+<body>
+    
+<div class=" container">
+
+</div>
+
+<div class="d-flex flex-column justify-content-center w-100 h-100">
+
+	<div class="d-flex flex-column justify-content-center align-items-center">
+		<h1 class="fw-light text-white m-0" id ="food-quote">Bliss on a plate</h1>
+		<div class="btn-group my-5">
+						
+		</div>
+        <img src="https://images.unsplash.com/photo-1606787366850-de6330128bfc?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8OHx8fGVufDB8fHx8fA%3D%3D" alt="food" height="300px" width="600px"/>
+        <br><br>
+        <form action="/submit" method="POST">
+            <input type="submit"  class="btn btn-outline-light" value= "Click me to view the recipes" aria-current="page"><i class="fas fa-file-download me-2"></i> 
+          </form>	
+        
+        
+	</div>
+
+    
+</div>
+</div>
+</body>
+  
+
+</html>
+<%-include ("partials/footer.ejs") %>
